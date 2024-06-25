@@ -25,7 +25,7 @@ const Navbar = () => {
       {menuVisible && (
         <div className="menu">
           <ul>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/"https://github.com/Jaya272000/Photo_Snap_Group6/pull/3/conflict?name=src%252FComponent%252FNavbar.jsx&base_oid=bd98fb00e79a4fe251a553d3b020589b6ee532fd&head_oid=40547e5afcceafedd4aeed4d81a7cd6624477ab1>Home</Link></li>
             <li><Link to="/login-signup">Login/Signup</Link></li>
             <li><a href="#">Edit</a></li>
             <li><a href="#">Footer</a></li>
