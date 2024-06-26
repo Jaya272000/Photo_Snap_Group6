@@ -13,9 +13,9 @@ function Main() {
               Easily edit images using the online photo editor in Adobe Express, your all-in-one AI content creation app. Turn your images into social posts, flyers, and more to stand out.
             </p>
             <div>
-              <a href='/editor'>
+              <Link to='/editor'>
                 <button className='main-upload'>Upload Your Photo</button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
