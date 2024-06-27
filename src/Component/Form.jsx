@@ -1,31 +1,18 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Login from "./Login";
 import Registration from "./Registration";
 
-function Form({ setDatalogin }) {
+function Form() {
     const [isLogin, setIsLogin] = useState(false);
     const [showLogin, setShowLogin] = useState(true);
 
-    // Use useEffect to update the parent component when isLogin changes
-    // useEffect(() => {
-    //     setDatalogin(isLogin);
-    // }, [isLogin, setDatalogin]);
-
     return (
         <div className="login-y">
-            {/* <span
-                onClick={() => document.querySelector('.login-y').style.display = 'none'}
-                className="close"
-            >
-                &times;
-            </span> */}
-
-            
             <div className="loginbox">
                 <img
                     className="login-img"
                     src="https://pixlr.com/img/misc/auth.webp"
-                    alt="Login il lustration"
+                    alt="Login illustration"
                 />
                 <div className="loginmain">
                     {showLogin ? (
@@ -40,4 +27,3 @@ function Form({ setDatalogin }) {
 }
 
 export default Form;
-
